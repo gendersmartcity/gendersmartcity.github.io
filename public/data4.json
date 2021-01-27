@@ -47,7 +47,7 @@
   {
     "id": 4,
     "author": "SP",
-    "type": "",
+    "type": "paragraph",
     "topic": "Mobility challenges created by the lockdown",
     "content": "The challenges were the difficulties faced in mobility due to the lockdown - there used to be some official vehicles and sometimes even people holding valid passes - BBMP issues certificates but the police won’t always accept it as the police also issues certificates and the police doesn’t issue certificates to everyone so you know there was a command failure at the government level at the administration level with regards to the validity of the certificates.",
     "video": "no",
@@ -61,6 +61,36 @@
   },
   {
     "id": 5,
+    "author": "SP",
+    "type": "image1",
+    "topic": "Mobility challenges created by the lockdown",
+    "content": "The challenges were the difficulties faced in mobility due to the lockdown - there used to be some official vehicles and sometimes even people holding valid passes - BBMP issues certificates but the police won’t always accept it as the police also issues certificates and the police doesn’t issue certificates to everyone so you know there was a command failure at the government level at the administration level with regards to the validity of the certificates.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "general",
+    "tags": "police, BBMP, mobility",
+    "imgname1": "img-general-1",
+    "imgname2": "img-general-2",
+    "color": "yellow",
+    "colorcode": "#eacb4f"
+  },
+  {
+    "id": 6,
+    "author": "SP",
+    "type": "image2",
+    "topic": "Mobility challenges created by the lockdown",
+    "content": "The challenges were the difficulties faced in mobility due to the lockdown - there used to be some official vehicles and sometimes even people holding valid passes - BBMP issues certificates but the police won’t always accept it as the police also issues certificates and the police doesn’t issue certificates to everyone so you know there was a command failure at the government level at the administration level with regards to the validity of the certificates.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "general",
+    "tags": "police, BBMP, mobility",
+    "imgname1": "img-general-1",
+    "imgname2": "img-general-2",
+    "color": "yellow",
+    "colorcode": "#eacb4f"
+  },
+  {
+    "id": 7,
     "author": "LP",
     "type": "pullquote",
     "topic": "Gaps in government data",
@@ -75,7 +105,22 @@
     "colorcode": "#ea7e4f"
   },
   {
-    "id": 6,
+    "id": 8,
+    "author": "LP",
+    "type": "image1",
+    "topic": "Gaps in government data",
+    "content": "We thought somebody in the government would be keeping record of people dying through migration or walking home or hunger but at some point we learned that they were not doing it and that itself was a major shock.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "general",
+    "tags": "data, database",
+    "imgname1": "img-general-3",
+    "imgname2": "no",
+    "color": "orange",
+    "colorcode": "#ea7e4f"
+  },
+  {
+    "id": 9,
     "author": "GH",
     "type": "pullquote",
     "topic": "Relief efforts",
@@ -90,7 +135,22 @@
     "colorcode": "#9b42f4"
   },
   {
-    "id": 7,
+    "id": 10,
+    "author": "GH",
+    "type": "image1",
+    "topic": "Relief efforts",
+    "content": "We worked with around 12,000 families of waste pickers - we gave ration for two months, and after that citizens approached us and asked us to help -approximately 50,000 families got rations for one or two months. Then we specifically worked with identifying people who have comorbidity who are on regular medication for pregnant women or children so we serviced them also. We knew this will happen so we started early.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "waste pickers",
+    "tags": "rations,  food distribution",
+    "imgname1": "img-wastepickers-1",
+    "imgname2": "no",
+    "color": "purple",
+    "colorcode": "#9b42f4"
+  },
+  {
+    "id": 11,
     "author": "LL",
     "type": "pullquote",
     "topic": "Relief efforts",
@@ -105,7 +165,7 @@
     "colorcode": "#ef1a4c"
   },
   {
-    "id": 8,
+    "id": 12,
     "author": "GH",
     "type": "paragraph",
     "topic": "Data driven distribution",
@@ -120,9 +180,24 @@
     "colorcode": "#9b42f4"
   },
   {
-    "id": 9,
+    "id": 13,
+    "author": "GH",
+    "type": "image1",
+    "topic": "Data driven distribution",
+    "content": "One of the things that the community was very happy we were doing was not only because of the food they got, but because we were able to customisation the kind of food we gave to pregnant women, small children, because we had the data. Where we did not have the data we gave people the standard ration. So I think knowing who are in the city what they eat for eg: even regular ration also were customised. People from Orissa and Bengal we gave certain kind of rice and Dal; people from North Karnataka we gave different food and then for people from Rajasthan we gave wheat flour - and people from South we gave a different kind of rice and Dal - we were able to customise to that extent because we knew the population rate.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "pregnant women, children",
+    "tags": "relief efforts, rations, data,  food distribution",
+    "imgname1": "img-pregnantwomen-1",
+    "imgname2": "no",
+    "color": "purple",
+    "colorcode": "#9b42f4"
+  },
+  {
+    "id": 14,
     "author": "HP",
-    "type": "",
+    "type": "paragraph",
     "topic": "Relief efforts",
     "content": "The nature of the care chatline has changed over the lockdown, so during the whole time we were providing help for women, especially handholding around abortion and reproductive health questions. We also organised pad distribution because it was becoming tough at some point for people to have access to some basic services.",
     "video": "no",
@@ -135,9 +210,9 @@
     "colorcode": "#512818"
   },
   {
-    "id": 10,
+    "id": 15,
     "author": "SDP",
-    "type": "",
+    "type": "paragraph",
     "topic": "Relief efforts",
     "content": "During the lockdown, SDP has raised money nearly 20 lakhs through crowdfunding for providing ration kits to sexual minorities and sex workers and we approached some other funders also. We constantly provided three months dry ration kit to across Karnataka, to around 7000 people - female sex workers and sexual minorities are our beneficiaries.",
     "video": "no",
@@ -150,7 +225,22 @@
     "colorcode": "#7dba47"
   },
   {
-    "id": 11,
+    "id": 16,
+    "author": "SDP",
+    "type": "image1",
+    "topic": "Relief efforts",
+    "content": "During the lockdown, SDP has raised money nearly 20 lakhs through crowdfunding for providing ration kits to sexual minorities and sex workers and we approached some other funders also. We constantly provided three months dry ration kit to across Karnataka, to around 7000 people - female sex workers and sexual minorities are our beneficiaries.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "sex workers, sexual minorities",
+    "tags": "rations, crowdfunding,  food distribution",
+    "imgname1": "img-sexworkers-1",
+    "imgname2": "no",
+    "color": "green",
+    "colorcode": "#7dba47"
+  },
+  {
+    "id": 17,
     "author": "SDP",
     "type": "pullquote",
     "topic": "Shortcomings of smart city policies",
@@ -165,7 +255,7 @@
     "colorcode": "#7dba47"
   },
   {
-    "id": 12,
+    "id": 18,
     "author": "SDP",
     "type": "pullquote",
     "topic": "Challenges faced by stakeholders",
@@ -180,7 +270,7 @@
     "colorcode": "#7dba47"
   },
   {
-    "id": 13,
+    "id": 19,
     "author": "LL",
     "type": "pullquote",
     "topic": "Challenges faced by stakeholders",
@@ -195,7 +285,7 @@
     "colorcode": "#ef1a4c"
   },
   {
-    "id": 14,
+    "id": 20,
     "author": "KOL",
     "type": "paragraph",
     "topic": "Covid-19 technologies",
@@ -210,7 +300,7 @@
     "colorcode": "#ea62d8"
   },
   {
-    "id": 15,
+    "id": 21,
     "author": "KOL",
     "type": "pullquote",
     "topic": "Shortcomings of smart city policies",
@@ -225,7 +315,7 @@
     "colorcode": "#ea62d8"
   },
   {
-    "id": 16,
+    "id": 22,
     "author": "KOL",
     "type": "paragraph",
     "topic": "Shortcomings of smart city policies",
@@ -240,7 +330,7 @@
     "colorcode": "#ea62d8"
   },
   {
-    "id": 17,
+    "id": 23,
     "author": "LF",
     "type": "paragraph",
     "topic": "Misinformation around Covid",
@@ -255,7 +345,37 @@
     "colorcode": "#23d7eb"
   },
   {
-    "id": 18,
+    "id": 24,
+    "author": "LF",
+    "type": "image1",
+    "topic": "Misinformation around Covid",
+    "content": "This entire social media thing happened where we thought we should do something, and we should share the stories with our partners - we also made sure that because there was a lot of misinformation about Covid, with a certain community being blamed, and a lot of myths around where it comes from. All of this is prevalent not just among communities that are that do not have that kind of education, but also very well educated people, so in our communication and we have been making efforts to share simple posters and videos about Covid to sort of bust that misinformation, so we are using technology for that as well.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "religious community",
+    "tags": "discrimination, fake news",
+    "imgname1": "img-religiouscommunity-1",
+    "imgname2": "img-religiouscommunity-2",
+    "color": "cyan",
+    "colorcode": "#23d7eb"
+  },
+  {
+    "id": 25,
+    "author": "LF",
+    "type": "image2",
+    "topic": "Misinformation around Covid",
+    "content": "This entire social media thing happened where we thought we should do something, and we should share the stories with our partners - we also made sure that because there was a lot of misinformation about Covid, with a certain community being blamed, and a lot of myths around where it comes from. All of this is prevalent not just among communities that are that do not have that kind of education, but also very well educated people, so in our communication and we have been making efforts to share simple posters and videos about Covid to sort of bust that misinformation, so we are using technology for that as well.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "religious community",
+    "tags": "discrimination, fake news",
+    "imgname1": "img-religiouscommunity-1",
+    "imgname2": "img-religiouscommunity-2",
+    "color": "cyan",
+    "colorcode": "#23d7eb"
+  },
+  {
+    "id": 26,
     "author": "LF",
     "type": "pullquote",
     "topic": "Relief efforts",
@@ -270,7 +390,7 @@
     "colorcode": "#23d7eb"
   },
   {
-    "id": 19,
+    "id": 27,
     "author": "LF",
     "type": "paragraph",
     "topic": "Mobility challenges created by the lockdown",
@@ -285,9 +405,9 @@
     "colorcode": "#23d7eb"
   },
   {
-    "id": 20,
+    "id": 28,
     "author": "LL",
-    "type": "",
+    "type": "paragraph",
     "topic": "Relief efforts",
     "content": "Even in the beginning, we said it to the women (domestic workers) also that for the first month or two months, we were only working for the migrants because that was the biggest priority - and this we explained to the women, that is why I am hopeful women understood that although they were also in a similar situation - but I was making this difference between locals and migrants because migrants have also because got that extra vulnerability and insecurity. Also because of the fact that they do not have any identification is with them, which the state makes big noise about so nothing was universal in that sense na? So they had to have Aadhaar card and IDs in order to get rations, so we did that extra work for migrants - you saw the long marches and the entire suffering. And we had a helpline and we had a network of they would  call up and up and keep crying “Aaj khana nahi hai, hum ko pahucha do” (we have no food today, please can you get some food to us).",
     "video": "no",
@@ -300,7 +420,37 @@
     "colorcode": "#ef1a4c"
   },
   {
-    "id": 21,
+    "id": 29,
+    "author": "LL",
+    "type": "image1",
+    "topic": "Relief efforts",
+    "content": "Even in the beginning, we said it to the women (domestic workers) also that for the first month or two months, we were only working for the migrants because that was the biggest priority - and this we explained to the women, that is why I am hopeful women understood that although they were also in a similar situation - but I was making this difference between locals and migrants because migrants have also because got that extra vulnerability and insecurity. Also because of the fact that they do not have any identification is with them, which the state makes big noise about so nothing was universal in that sense na? So they had to have Aadhaar card and IDs in order to get rations, so we did that extra work for migrants - you saw the long marches and the entire suffering. And we had a helpline and we had a network of they would  call up and up and keep crying “Aaj khana nahi hai, hum ko pahucha do” (we have no food today, please can you get some food to us).",
+    "video": "no",
+    "videolink": "no",
+    "communities": "migrants, domestic workers",
+    "tags": "rations, Aadhaar, ID,  food distribution",
+    "imgname1": "img-wastepickers-2",
+    "imgname2": "img-migrants-2",
+    "color": "red",
+    "colorcode": "#ef1a4c"
+  },
+  {
+    "id": 30,
+    "author": "LL",
+    "type": "image2",
+    "topic": "Relief efforts",
+    "content": "Even in the beginning, we said it to the women (domestic workers) also that for the first month or two months, we were only working for the migrants because that was the biggest priority - and this we explained to the women, that is why I am hopeful women understood that although they were also in a similar situation - but I was making this difference between locals and migrants because migrants have also because got that extra vulnerability and insecurity. Also because of the fact that they do not have any identification is with them, which the state makes big noise about so nothing was universal in that sense na? So they had to have Aadhaar card and IDs in order to get rations, so we did that extra work for migrants - you saw the long marches and the entire suffering. And we had a helpline and we had a network of they would  call up and up and keep crying “Aaj khana nahi hai, hum ko pahucha do” (we have no food today, please can you get some food to us).",
+    "video": "no",
+    "videolink": "no",
+    "communities": "migrants, domestic workers",
+    "tags": "rations, Aadhaar, ID,  food distribution",
+    "imgname1": "img-wastepickers-2",
+    "imgname2": "img-migrants-2",
+    "color": "red",
+    "colorcode": "#ef1a4c"
+  },
+  {
+    "id": 31,
     "author": "SP",
     "type": "paragraph",
     "topic": "Relief efforts",
@@ -315,7 +465,37 @@
     "colorcode": "#eacb4f"
   },
   {
-    "id": 23,
+    "id": 32,
+    "author": "SP",
+    "type": "image1",
+    "topic": "Relief efforts",
+    "content": "The Shramik train was a very big operation - they wouldn’t announce when the trains would arrive so then you have to keep tracking so somebody is checking - and then we had to tell people they’re all supposed to wait by the police station. Cooked food operations were another big thing as fifty meals are needed at the police station now, so we are seeing who’s got 50 meals please rush to so-and-so place! \nThe government making people buy tickets, how shameless the government is for charging! All this was going on you know on at the back-end and then finally to reach people, last minute: somebody will go to the police station and packing food and feeding the shramiks. We were packing the chips for travel because on the Shramik trains there were no catering facilities because there were no regular stations, so everyone had to be given dry food to be eaten on the train.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "migrants",
+    "tags": "rations, Shramik trains, government apathy, food distribution",
+    "imgname1": "img-migrants-3",
+    "imgname2": "img-migrants-4",
+    "color": "yellow",
+    "colorcode": "#eacb4f"
+  },
+  {
+    "id": 33,
+    "author": "SP",
+    "type": "image2",
+    "topic": "Relief efforts",
+    "content": "The Shramik train was a very big operation - they wouldn’t announce when the trains would arrive so then you have to keep tracking so somebody is checking - and then we had to tell people they’re all supposed to wait by the police station. Cooked food operations were another big thing as fifty meals are needed at the police station now, so we are seeing who’s got 50 meals please rush to so-and-so place! \nThe government making people buy tickets, how shameless the government is for charging! All this was going on you know on at the back-end and then finally to reach people, last minute: somebody will go to the police station and packing food and feeding the shramiks. We were packing the chips for travel because on the Shramik trains there were no catering facilities because there were no regular stations, so everyone had to be given dry food to be eaten on the train.",
+    "video": "no",
+    "videolink": "no",
+    "communities": "migrants",
+    "tags": "rations, Shramik trains, government apathy, food distribution",
+    "imgname1": "img-migrants-3",
+    "imgname2": "img-migrants-4",
+    "color": "yellow",
+    "colorcode": "#eacb4f"
+  },
+  {
+    "id": 34,
     "author": "SP",
     "type": "paragraph",
     "topic": "Perspectives on the government response",
@@ -330,7 +510,7 @@
     "colorcode": "#eacb4f"
   },
   {
-    "id": 24,
+    "id": 35,
     "author": "LF",
     "type": "pullquote",
     "topic": "Collaborating with community based organisations (CBOs)",
@@ -345,7 +525,7 @@
     "colorcode": "#23d7eb"
   },
   {
-    "id": 25,
+    "id": 36,
     "author": "LF",
     "type": "paragraph",
     "topic": "Use of technology",
@@ -360,9 +540,24 @@
     "colorcode": "#23d7eb"
   },
   {
-    "id": 26,
+    "id": 37,
     "author": "SP",
     "type": "paragraph",
+    "topic": "Use of technology",
+    "content": "A very important WhatsApp group which was there to reach out to for the migrants 2 or 3 large networks so there are some people who were raising funds, People were locating going and physically because you know even to go and give food was a challenge people were not allowed to move around he had to have certifications and all that and so then there is also the question of so there was raising fund there was finding need there is reaching it and coordinating that on WhatsApp so there is a dashboard that somebody started and I was a regular contributor on the dashboard in terms of information and and sharing all that so that went on during the most intense period I was there maybe about 8 to 10 hours a day",
+    "video": "no",
+    "videolink": "no",
+    "communities": "migrants",
+    "tags": "rations, food distribution, digital dashboard",
+    "imgname1": "img-migrants-5",
+    "imgname2": "no",
+    "color": "yellow",
+    "colorcode": "#eacb4f"
+  },
+  {
+    "id": 38,
+    "author": "SP",
+    "type": "image1",
     "topic": "Use of technology",
     "content": "A very important WhatsApp group which was there to reach out to for the migrants 2 or 3 large networks so there are some people who were raising funds, People were locating going and physically because you know even to go and give food was a challenge people were not allowed to move around he had to have certifications and all that and so then there is also the question of so there was raising fund there was finding need there is reaching it and coordinating that on WhatsApp so there is a dashboard that somebody started and I was a regular contributor on the dashboard in terms of information and and sharing all that so that went on during the most intense period I was there maybe about 8 to 10 hours a day",
     "video": "no",

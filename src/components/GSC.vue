@@ -89,19 +89,13 @@
             </div>
           </div>
         </div>
-        <div v-if="item.imgname1 !== 'no'">
-          <img
-            class="image-item"
-            :src="getImgUrl(item.imgname1)"
-            alt="image"
-          />
+
+        <div v-if="item.type === 'image1'">
+          <img class="image-item" :src="getImgUrl(item.imgname1)" alt="image" />
         </div>
-        <div v-if="item.imgname2 !== 'no'">
-          <img
-            class="image-item"
-            :src="getImgUrl(item.imgname2)"
-            alt="image"
-          />
+
+        <div v-if="item.type === 'image2'">
+          <img class="image-item" :src="getImgUrl(item.imgname2)" alt="image" />
         </div>
       </div>
     </section>
@@ -234,7 +228,7 @@ export default {
       this.Communities = d;
     },
     async fetchData() {
-      this.df = await DataFrame.fromJSON("data3.json");
+      this.df = await DataFrame.fromJSON("data4.json");
       this.df.show();
       this.getAuthors();
       this.getTopics();
@@ -243,7 +237,7 @@ export default {
       this.animate();
     },
     getImgUrl(img) {
-      let x = "../assets/img/" + img + ".jpg"
+      let x = "../assets/img/" + img + ".jpg";
       x = "img/" + img + ".jpg";
       console.log(x);
       return x;
@@ -410,8 +404,8 @@ h6 {
   padding-left: 1em;
 }
 
-img{
-  width: 100%
+img {
+  width: 100%;
 }
 
 .pink {
