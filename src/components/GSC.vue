@@ -463,9 +463,12 @@ img {
 }
 
 .article-wrapper {
-  transition: all 0.5s cubic-bezier(0, 0, 0.32, 1.31);
+  transition: background-color 0.5s cubic-bezier(0, 0, 0.32, 1.31);
+  transition: color 0.5s cubic-bezier(0, 0, 0.32, 1.31) 0.2s;
+  transition: transform 0.5s cubic-bezier(0, 0, 0.32, 1.31);
   margin: 2em;
-  padding: 2em;
+  padding: 10px;
+  /* padding: 2em; */
 }
 
 .article-wrapper:hover {
@@ -510,7 +513,7 @@ para-enter-to {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s cubic-bezier(0, 0, 0, 1);
 }
 
 .fade-enter-from,
