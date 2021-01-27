@@ -292,6 +292,20 @@ export default {
   font-family: "Montserrat", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #111111; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #333333; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px double #FFC966; /* creates padding around scroll thumb */
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -399,6 +413,8 @@ button {
   color: #eeeeee;
   border: none;
   padding: 5px 20px;
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px double #FFC966; /* creates padding around scroll thumb */
 }
 
 p {
