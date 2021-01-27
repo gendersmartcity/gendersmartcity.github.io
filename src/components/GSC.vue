@@ -286,6 +286,12 @@ export default {
 
   
     <style>
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Montserrat:wght@300;400&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -442,13 +448,15 @@ img {
 
 .article-wrapper {
   transition: all 0.3s cubic-bezier(0, 0, 0.32, 1.31);
-  padding: 4em;
+  margin: 2em;
+  padding: 2em;
 }
 
 .article-wrapper:hover {
   transform: scale(1.04);
   transform: translateY(-3px);
-  background-color: #332222;
+  background-color: #dddddd;
+  color: #111111;
   box-shadow: 5px 5px 10px 1px rgba(255, 255, 255, 0.15);
 }
 
@@ -462,7 +470,9 @@ img {
 }
 
 blockquote {
-  font-size: 15px;
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 17px;
   text-align: right;
   padding-right: 10px;
   border-right: double 2px #eeeeee;
