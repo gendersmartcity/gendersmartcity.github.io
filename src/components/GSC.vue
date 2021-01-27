@@ -447,7 +447,7 @@ img {
 }
 
 .article-wrapper {
-  transition: all 0.3s cubic-bezier(0, 0, 0.32, 1.31);
+  transition: all 0.5s cubic-bezier(0, 0, 0.32, 1.31);
   margin: 2em;
   padding: 2em;
 }
@@ -455,7 +455,7 @@ img {
 .article-wrapper:hover {
   transform: scale(1.04);
   transform: translateY(-3px);
-  background-color: #dddddd;
+  background-color: #cccccc;
   color: #111111;
   box-shadow: 5px 5px 10px 1px rgba(255, 255, 255, 0.15);
 }
