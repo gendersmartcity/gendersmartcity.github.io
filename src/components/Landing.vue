@@ -5,7 +5,7 @@
     </transition>
     <div style="display: grid; grid-template-columns: 1fr 3.5fr 1fr">
       <img
-        style="align-self: end; padding-left: 10px"
+        style="align-self: end; padding-left: 10px; max-height: 400px"
         src="img/mala.svg"
         alt=""
       />
@@ -15,6 +15,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             text-align: left;
+            grid-gap: 100px;
           "
         >
           <div style="align-self: center;">
@@ -66,7 +67,7 @@
         </div>
       </div>
       <img
-        style="align-self: end; margin-right: 10px"
+        style="align-self: end; margin-right: 10px; max-height: 400px"
         src="img/lakshmi.svg"
         alt=""
       />
