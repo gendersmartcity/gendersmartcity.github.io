@@ -19,7 +19,7 @@
           "
         >
           <div style="align-self: center">
-            <div style="border-left: 2px double #ea62d8; background-color: #333333">
+            <div style="margin-left: -20px; border-left: 2px double #ea62d8; background-color: #333333">
               <h4>How to use this site:</h4>
               <h5>
                 Click on “Toggle Filters” in order to filter excerpts by
