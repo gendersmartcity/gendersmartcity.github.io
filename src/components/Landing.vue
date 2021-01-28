@@ -19,14 +19,29 @@
           "
         >
           <div style="align-self: center">
+            <div style="border-left: 2px double #ea62d8; background-color: #333333">
+              <h4>How to use this site:</h4>
+              <h5>
+                Click on “Toggle Filters” in order to filter excerpts by
+                interviewee, topic, or community. Selecting an interviewee will
+                bring up all their inputs, while browsing by topic or community
+                will bring up excerpts relevant to each. “Remove All Filters”
+                will bring you back to the default view.
+              </h5>
+            </div>
             <h4 style="text-align: left; border-right: 2px double #ea62d8">
-              The website showcases excerpts from our research and interviews of
-              authors that consist of individuals, NGOs and CBOs that have
-              functioned relentlessly amidst the pandemic to curb the long
-              existing gaps in infrastructure and care. The interviewees have
-              worked across communities and in several capacities. Their
-              identities are protected and thereby represented by pseudonyms:
+              The website showcases excerpts from our interviews of individuals
+              working with NGOs and CBOs that worked tirelessly through the
+              pandemic to bridge considerable gaps in infrastructure and care.
+              The interviewees have worked across communities and in several
+              capacities. Their identities are protected and thereby represented
+              by pseudonyms:
             </h4>
+            <div class="arrow">
+              <div class="chevron"></div>
+              <div class="chevron"></div>
+              <div class="chevron"></div>
+            </div>
           </div>
           <div style="align-self: center">
             <ul>
@@ -77,17 +92,6 @@
         src="img/lakshmi.svg"
         alt=""
       />
-    </div>
-    <br>
-    <div style="width: 70%; margin: auto; background-color: #333333">
-      <h4>How to use this site:</h4>
-      <h5>
-        Click on “Toggle Filters” in order to filter excerpts by interviewee,
-        topic, or community. Selecting an interviewee will bring up all their
-        inputs, while browsing by topic or community will bring up excerpts
-        relevant to each. “Remove All Filters” will bring you back to the
-        default view.
-      </h5>
     </div>
   </div>
 </template>
@@ -150,5 +154,68 @@ li {
 .bold-span {
   color: #ea62d8;
   font-weight: 800;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chevron {
+  position: absolute;
+  width: 20px;
+  height: 8px;
+  opacity: 0;
+  transform: scale(0.3);
+  animation: move-chevron 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move-chevron 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move-chevron 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #2c3e50;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skewY(30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skewY(-30deg);
+}
+
+@keyframes move-chevron {
+  25% {
+    opacity: 1;
+  }
+  33.3% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  66.6% {
+    opacity: 1;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(90px) scale(0.5);
+  }
 }
 </style>

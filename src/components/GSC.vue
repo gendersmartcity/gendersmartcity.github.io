@@ -9,7 +9,7 @@
       <transition name="fade">
         <div class="filter-container" v-if="active">
           <div class="filter">
-            <h3>Authors</h3>
+            <h3>Interviewees</h3>
             <div
               class="form-group"
               v-for="item in Authors"
@@ -29,7 +29,7 @@
           </div>
 
           <div class="filter">
-            <h3>Title</h3>
+            <h3>Topics</h3>
             <div class="form-group" v-for="item in Titles" v-bind:key="item.id">
               <label class="form-check-label" :for="item.id">
                 <input
