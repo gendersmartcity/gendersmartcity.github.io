@@ -382,7 +382,7 @@ section {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -491,7 +491,7 @@ img {
 blockquote {
   font-family: "Lora", serif;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 18px;
   text-align: right;
   padding-right: 10px;
   border-right: double 2px #eeeeee;
