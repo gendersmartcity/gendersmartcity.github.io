@@ -17,7 +17,7 @@
             text-align: left;
           "
         >
-          <div>
+          <div style="align-self: center">
             <h4>
               The website showcases excerpts from our research and interviews of
               authors that consist of individuals, non government and community
@@ -28,7 +28,7 @@
               represented by pseudonyms:
             </h4>
           </div>
-          <div>
+          <div style="align-self: center">
             <ul>
               <li>
                 - SP is a Dalit activist, writer, social policy researcher, and
