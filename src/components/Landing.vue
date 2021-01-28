@@ -18,7 +18,7 @@
             grid-gap: 100px;
           "
         >
-          <div style="align-self: center;">
+          <div style="align-self: center">
             <h4 style="text-align: justify">
               The website showcases excerpts from our research and interviews of
               authors that consist of individuals, non government and community
@@ -72,14 +72,16 @@
         alt=""
       />
     </div>
-    <h4 style="text-decoration: underline">How to use this site:</h4>
-    <h5>
-      Click on “Toggle Filters” in order to filter excerpts by interviewee,
-      topic, or community. Selecting an interviewee will bring up all their
-      inputs, while browsing by topic or community will bring up excerpts
-      relevant to each. “Remove All Filters” will bring you back to the default
-      view.
-    </h5>
+    <div style="width: 70%; margin: auto; background-color: #333333">
+      <h4>How to use this site:</h4>
+      <h5>
+        Click on “Toggle Filters” in order to filter excerpts by interviewee,
+        topic, or community. Selecting an interviewee will bring up all their
+        inputs, while browsing by topic or community will bring up excerpts
+        relevant to each. “Remove All Filters” will bring you back to the
+        default view.
+      </h5>
+    </div>
   </div>
 </template>
 
