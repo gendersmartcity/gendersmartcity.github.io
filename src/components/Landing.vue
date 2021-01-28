@@ -3,8 +3,12 @@
     <transition name="head">
       <h1 class="landing-text">Gendering the Smart City</h1>
     </transition>
-    <div style="display: grid; grid-template-columns: 1fr 3fr 1fr">
-      <img src="img/mala.svg" alt="" />
+    <div style="display: grid; grid-template-columns: 1fr 3.5fr 1fr">
+      <img
+        style="align-self: end; padding-left: 10px"
+        src="img/mala.svg"
+        alt=""
+      />
       <div>
         <h4>
           The website showcases excerpts from our research and interviews of
@@ -26,10 +30,12 @@
             enthusiasts.
           </li>
           <li>
-            - RJO is an organisation that works on community building and policies
-            around abortion and adolescent sexuality.
+            - RJO is an organisation that works on community building and
+            policies around abortion and adolescent sexuality.
           </li>
-          <li>- GH is an organisation that works with informal waste workers.</li>
+          <li>
+            - GH is an organisation that works with informal waste workers.
+          </li>
           <li>
             - LL is the cofounder of a women’s rights organisation that works
             issues related to women in the unorganised sector.
@@ -39,8 +45,8 @@
             economy, digital rights, social justice and democracy.
           </li>
           <li>
-            - SDP is a human rights organisation that works for sexual minorities,
-            sex workers and people living HIV.
+            - SDP is a human rights organisation that works for sexual
+            minorities, sex workers and people living HIV.
           </li>
           <li>
             - LF is a registered trust that work towards supporting sex workers
@@ -56,7 +62,11 @@
           default view.
         </h5>
       </div>
-      <img src="img/lakshmi.svg" alt="" />
+      <img
+        style="align-self: end; margin-right: 10px"
+        src="img/lakshmi.svg"
+        alt=""
+      />
     </div>
   </div>
 </template>
