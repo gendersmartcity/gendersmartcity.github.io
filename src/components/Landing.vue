@@ -19,59 +19,66 @@
           "
         >
           <div style="align-self: center">
-            <h4 style="text-align: justify">
+            <h4 style="text-align: left; border-right: 2px double #ea62d8">
               The website showcases excerpts from our research and interviews of
-              authors that consist of individuals, non government and community
-              based organisations that have functioned relentlessly amidst the
-              pandemic to curb the long existing gaps in infrastructure and
-              care. The interviewees have worked across communities and in
-              several capacities. Their identities are protected and thereby
-              represented by pseudonyms:
+              authors that consist of individuals, NGOs and CBOs that have
+              functioned relentlessly amidst the pandemic to curb the long
+              existing gaps in infrastructure and care. The interviewees have
+              worked across communities and in several capacities. Their
+              identities are protected and thereby represented by pseudonyms:
             </h4>
           </div>
           <div style="align-self: center">
             <ul>
               <li>
-                - SP is a Dalit activist, writer, social policy researcher, and
-                an independent journalist.
+                - <span class="bold-span">SP</span> is a Dalit activist, writer,
+                social policy researcher, and an independent journalist.
               </li>
               <li>
-                - LP is an engineer who helps run a community of open data
-                enthusiasts.
+                - <span class="bold-span">LP</span> is an engineer who helps run
+                a community of open data enthusiasts.
               </li>
               <li>
-                - RJO is an organisation that works on community building and
-                policies around abortion and adolescent sexuality.
+                - <span class="bold-span">RJO</span> is an organisation that
+                works on community building and policies around abortion and
+                adolescent sexuality.
               </li>
               <li>
-                - GH is an organisation that works with informal waste workers.
+                - <span class="bold-span">GH</span> is an organisation that
+                works with informal waste workers.
               </li>
               <li>
-                - LL is the cofounder of a women’s rights organisation that
-                works issues related to women in the unorganised sector.
+                - <span class="bold-span">LL</span> is the cofounder of a
+                women’s rights organisation that works issues related to women
+                in the unorganised sector.
               </li>
               <li>
-                - KOL is a research and advocacy organisation that works on
-                digital economy, digital rights, social justice and democracy.
+                - <span class="bold-span">KOL</span> is a research and advocacy
+                organisation that works on digital economy, digital rights,
+                social justice and democracy.
               </li>
               <li>
-                - SDP is a human rights organisation that works for sexual
-                minorities, sex workers and people living HIV.
+                - <span class="bold-span">SDP</span> is a human rights
+                organisation that works for sexual minorities, sex workers and
+                people living HIV.
               </li>
               <li>
-                - LF is a registered trust that work towards supporting sex
-                workers and gender/sexual minorities.
+                - <span class="bold-span">LF</span> is a registered trust that
+                work towards supporting sex workers and gender/sexual
+                minorities.
               </li>
             </ul>
           </div>
         </div>
       </div>
+
       <img
         style="align-self: end; margin-right: 10px; max-height: 400px"
         src="img/lakshmi.svg"
         alt=""
       />
     </div>
+    <br>
     <div style="width: 70%; margin: auto; background-color: #333333">
       <h4>How to use this site:</h4>
       <h5>
@@ -138,5 +145,10 @@ ul {
 }
 li {
   margin: 5px;
+}
+
+.bold-span {
+  color: #ea62d8;
+  font-weight: 800;
 }
 </style>
