@@ -17,8 +17,8 @@
             text-align: left;
           "
         >
-          <div style="align-self: center">
-            <h4>
+          <div style="align-self: center;">
+            <h4 style="text-align: justify">
               The website showcases excerpts from our research and interviews of
               authors that consist of individuals, non government and community
               based organisations that have functioned relentlessly amidst the
