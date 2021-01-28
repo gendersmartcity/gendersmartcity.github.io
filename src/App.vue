@@ -1,17 +1,17 @@
 <template>
-  <!-- <Landing> </Landing> -->
+  <Landing> </Landing>
   <GSC></GSC>
 </template>
 
 <script>
-// import Landing from "./components/Landing.vue";
+import Landing from "./components/Landing.vue";
 import GSC from "./components/GSC.vue";
 
 export default {
   name: "App",
   components: {
     GSC,
-    // Landing,
+    Landing,
   },
 };
 
