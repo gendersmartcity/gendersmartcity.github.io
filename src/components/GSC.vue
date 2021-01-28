@@ -1,6 +1,24 @@
 <template>
   <div class="container">
+    
     <section class="filters">
+      <div
+      style="
+        position: absolute;
+        width: 200px;
+        border-left: 2px double #ea62d8;
+        background-color: #333333;
+      "
+    >
+      <h4>How to use this site:</h4>
+      <h5>
+        Click on “Toggle Filters” in order to filter excerpts by interviewee,
+        topic, or community. Selecting an interviewee will bring up all their
+        inputs, while browsing by topic or community will bring up excerpts
+        relevant to each. “Remove All Filters” will bring you back to the
+        default view.
+      </h5>
+    </div>
       <button @click="toggle" style="margin: 1em">Toggle Filters</button>
       <button @click="removeFilters" style="margin: 1em">
         Remove All Filters
@@ -303,7 +321,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #333333; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
-  border: 1px double #FFC966; /* creates padding around scroll thumb */
+  border: 1px double #ffc966; /* creates padding around scroll thumb */
 }
 
 .container {
@@ -414,7 +432,7 @@ button {
   border: none;
   padding: 5px 20px;
   border-radius: 20px; /* roundness of the scroll thumb */
-  border: 1px double #FFC966; /* creates padding around scroll thumb */
+  border: 1px double #ffc966; /* creates padding around scroll thumb */
 }
 
 p {

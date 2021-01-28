@@ -19,16 +19,7 @@
           "
         >
           <div style="align-self: center">
-            <div style="margin-left: -20px; border-left: 2px double #ea62d8; background-color: #333333">
-              <h4>How to use this site:</h4>
-              <h5>
-                Click on “Toggle Filters” in order to filter excerpts by
-                interviewee, topic, or community. Selecting an interviewee will
-                bring up all their inputs, while browsing by topic or community
-                will bring up excerpts relevant to each. “Remove All Filters”
-                will bring you back to the default view.
-              </h5>
-            </div>
+            
             <h4 style="text-align: left; border-right: 2px double #ea62d8">
               The website showcases excerpts from our interviews of individuals
               working with NGOs and CBOs that worked tirelessly through the
