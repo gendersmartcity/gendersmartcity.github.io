@@ -1,32 +1,40 @@
 <template>
   <div class="container">
-    <section class="filters">
-      <div
-        style="
-          position: absolute;
-          width: 200px;
-          margin-top: 55px;
-          margin-left: 55px;
-          border-left: 2px double #ea62d8;
-          background-color: #333333;
-          box-shadow: -5px -5px 5px 1px rgba(0, 0, 255, 0.15);
-          opacity: 0.8;
-        "
-      >
-        <h4>How to use this site:</h4>
-        <h5>
-          Click on “Toggle Filters” in order to filter excerpts by interviewee,
-          topic, or community. Selecting an interviewee will bring up all their
-          inputs, while browsing by topic or community will bring up excerpts
-          relevant to each. “Remove All Filters” will bring you back to the
-          default view.
-        </h5>
+    <section class="filters" style="display:flex; justify-content:center;">
+      <div>
+        <button @click="toggle" style="margin: 1em">Toggle Filters</button>
       </div>
-      <button @click="toggle" style="margin: 1em">Toggle Filters</button>
-      <button @click="removeFilters" style="margin: 1em">
-        Remove All Filters
-      </button>
+      <div>
+        <button @click="removeFilters" style="margin: 1em">
+          Remove All Filters
+        </button>
+      </div>
 
+      <div class="dropdown">
+        <button @click="toggleHowTo" style="margin: 1em; background-color: #512772">
+          How to Use this Site
+        </button>
+        <div
+          v-if="howto"
+          style="
+            width: 200px;
+            margin-right: auto;
+            border-left: 2px double #ea62d8;
+            background-color: #333333;
+            box-shadow: -5px -5px 5px 1px rgba(0, 0, 255, 0.15);
+            opacity: 0.8;
+          "
+        >
+          <h4>How to use this site:</h4>
+          <h5>
+            Click on “Toggle Filters” in order to filter excerpts by
+            interviewee, topic, or community. Selecting an interviewee will
+            bring up all their inputs, while browsing by topic or community will
+            bring up excerpts relevant to each. “Remove All Filters” will bring
+            you back to the default view.
+          </h5>
+        </div>
+      </div>
       <transition name="fade">
         <div class="filter-container" v-if="active">
           <div class="filter">
@@ -117,6 +125,17 @@
 
         <div v-if="item.type === 'image2'">
           <img class="image-item" :src="getImgUrl(item.imgname2)" alt="image" />
+        </div>
+
+        <div v-if="item.type === 'video'">
+          <iframe
+            width="350"
+            height="197"
+            src="https://www.youtube.com/embed/EGkEL1atdhc"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </section>
@@ -221,6 +240,9 @@ export default {
         });
       }
     },
+    toggleHowTo() {
+      this.howto = !this.howto;
+    },
     getAuthors() {
       let d = [];
       let arr = this.df.unique("author").toArray();
@@ -249,7 +271,7 @@ export default {
       this.Communities = d;
     },
     async fetchData() {
-      this.df = await DataFrame.fromJSON("data4.json");
+      this.df = await DataFrame.fromJSON("data5.json");
       this.df.show();
       this.getAuthors();
       this.getTopics();
@@ -287,6 +309,7 @@ export default {
       yellow: true,
       displayData: [],
       active: false,
+      howto: false,
       Authors: [],
       Titles: [],
       Communities: [],
@@ -540,6 +563,10 @@ para-enter-to {
 .fade-enter-from,
 .fade-leave-to {
   transform: translateY(-250px);
+}
+iframe {
+  display: block;
+  width: 100%;
 }
 </style>
 
