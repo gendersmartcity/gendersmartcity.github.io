@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <section class="filters" style="display:flex; justify-content:center;">
+    <section class="filters" style="display: flex; justify-content: center">
       <div>
         <button @click="toggle" style="margin: 1em">Toggle Filters</button>
       </div>
@@ -11,7 +11,10 @@
       </div>
 
       <div class="dropdown">
-        <button @click="toggleHowTo" style="margin: 1em; background-color: #512772">
+        <button
+          @click="toggleHowTo"
+          style="margin: 1em; background-color: #512772"
+        >
           How to Use this Site
         </button>
         <div
@@ -44,7 +47,7 @@
               v-for="item in Authors"
               v-bind:key="item.id"
             >
-              <label class="form-check-label" :for="item.id">
+              <label class="form-check-label" :for="item.id" :class="item.name">
                 <input
                   type="checkbox"
                   v-model="user.authorCollection"
@@ -383,6 +386,7 @@ section {
 
 .filter-container {
   position: absolute;
+  top: 50px;
   z-index: 10;
   width: 100%;
   margin: auto;
@@ -495,7 +499,7 @@ img {
 }
 
 .brown {
-  border-left: #512818 1px double;
+  border-left: #933f3f 1px double;
 }
 
 .green {
@@ -567,6 +571,30 @@ para-enter-to {
 iframe {
   display: block;
   width: 100%;
+}
+.SP {
+  color: #eacb4f;
+}
+.KOL {
+  color: #ea62d8;
+}
+.LP {
+  color: #ea7e4f;
+}
+.GH {
+  color: #9b42f4;
+}
+.LL {
+  color: #ef1a4c;
+}
+.RJO {
+  color: #933f3f;
+}
+.SDP {
+  color: #7dba47;
+}
+.LF {
+  color: #23d7eb;
 }
 </style>
 

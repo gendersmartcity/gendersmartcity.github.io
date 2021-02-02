@@ -37,39 +37,39 @@
           <div style="align-self: center">
             <ul>
               <li>
-                - <span class="bold-span">SP</span> is a Dalit activist, writer,
+                - <span class="bold-span yellow-span">SP</span> is a Dalit activist, writer,
                 social policy researcher, and an independent journalist.
               </li>
               <li>
-                - <span class="bold-span">LP</span> is an engineer who helps run
-                a community of open data enthusiasts.
-              </li>
-              <li>
-                - <span class="bold-span">RJO</span> is an organisation that
-                works on community building and policies around abortion and
-                adolescent sexuality.
-              </li>
-              <li>
-                - <span class="bold-span">GH</span> is an organisation that
-                works with informal waste workers.
-              </li>
-              <li>
-                - <span class="bold-span">LL</span> is the cofounder of a
-                women’s rights organisation that works issues related to women
-                in the unorganised sector.
-              </li>
-              <li>
-                - <span class="bold-span">KOL</span> is a research and advocacy
+                - <span class="bold-span pink-span">KOL</span> is a research and advocacy
                 organisation that works on digital economy, digital rights,
                 social justice and democracy.
               </li>
               <li>
-                - <span class="bold-span">SDP</span> is a human rights
+                - <span class="bold-span orange-span">LP</span> is an engineer who helps run
+                a community of open data enthusiasts.
+              </li>
+              <li>
+                - <span class="bold-span purple-span">GH</span> is an organisation that
+                works with informal waste workers.
+              </li>
+              <li>
+                - <span class="bold-span red-span">LL</span> is the cofounder of a
+                women’s rights organisation that works issues related to women
+                in the unorganised sector.
+              </li>
+              <li>
+                - <span class="bold-span brown-span">RJO</span> is an organisation that
+                works on community building and policies around abortion and
+                adolescent sexuality.
+              </li>
+              <li>
+                - <span class="bold-span green-span">SDP</span> is a human rights
                 organisation that works for sexual minorities, sex workers and
                 people living HIV.
               </li>
               <li>
-                - <span class="bold-span">LF</span> is a registered trust that
+                - <span class="bold-span cyan-span">LF</span> is a registered trust that
                 work towards supporting sex workers and gender/sexual
                 minorities.
               </li>
@@ -209,4 +209,37 @@ li {
     transform: translateY(90px) scale(0.5);
   }
 }
+
+.pink-span {
+  color: #ea62d8;
+}
+
+.yellow-span {
+  color: #eacb4f;
+}
+
+.orange-span {
+  color: #ea7e4f;
+}
+
+.purple-span {
+  color: #9b42f4;
+}
+
+.red-span {
+  color: #ef1a4c;
+}
+
+.brown-span {
+  color: #933f3f;
+}
+
+.green-span {
+  color: #7dba47;
+}
+
+.cyan-span {
+  color: #23d7eb;
+}
+
 </style>
