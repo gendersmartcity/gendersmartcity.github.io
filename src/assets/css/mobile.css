@@ -73,4 +73,8 @@
   .downArrow {
     display: none;
   }
+
+  .front-text{
+      grid-gap: 10px;
+  }
 }
