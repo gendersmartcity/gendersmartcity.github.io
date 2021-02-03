@@ -112,7 +112,9 @@
 
         <div v-if="item.type === 'pullquote'">
           <div class="content">
-            <blockquote>"{{ item.content }}"</blockquote>
+            <blockquote :class="'pull-' + item.author">
+              "{{ item.content }}"
+            </blockquote>
 
             <div class="author">
               <h5 style="text-align: right; padding-right: 3rem" class="author">
@@ -123,15 +125,36 @@
         </div>
 
         <div v-if="item.type === 'image1'">
-          <img class="image-item" :src="getImgUrl(item.imgname1)" alt="image" />
+          <figure>
+            <a :href="item.link1" target="_blank">
+              <img
+                class="image-item"
+                :src="getImgUrl(item.imgname1)"
+                alt="image"
+                :class="'image-' + item.author"
+              />
+            </a>
+            <figcaption>{{ item.caption1 }}</figcaption>
+          </figure>
         </div>
 
         <div v-if="item.type === 'image2'">
-          <img class="image-item" :src="getImgUrl(item.imgname2)" alt="image" />
+          <figure>
+            <a :href="item.link2" target="_blank">
+              <img
+                class="image-item"
+                :src="getImgUrl(item.imgname2)"
+                alt="image"
+                :class="'image-' + item.author"
+              />
+            </a>
+            <figcaption>{{ item.caption2 }}</figcaption>
+          </figure>
         </div>
 
         <div v-if="item.type === 'video'">
           <iframe
+            :class="'image-' + item.author"
             width="350"
             height="197"
             src="https://www.youtube.com/embed/EGkEL1atdhc"
@@ -177,7 +200,7 @@ export default {
 
       for (let i = 0; i < filters.titleCollection.length; i++) {
         let v = filters.titleCollection[i];
-        let k = "topic";
+        let k = "tags";
         let o = { filterCriteria: k, filterOption: v };
         d.push(o);
       }
@@ -191,7 +214,7 @@ export default {
         d.push(o);
       }
 
-      console.log(d);
+      // console.log(d);
       this.constructFilterDF(d);
       this.dataFiltering();
     },
@@ -199,7 +222,7 @@ export default {
       this.filterDf = new DataFrame(data, ["filterCriteria", "filterOption"]);
       // this.filterDf.show();
       this.filterArray = this.filterDf.toArray();
-      console.log(this.filterArray);
+      // console.log(this.filterArray);
     },
     dataFiltering() {
       this.displayData = [];
@@ -257,24 +280,40 @@ export default {
     },
     getTopics() {
       let d = [];
-      let arr = this.df.unique("topic").toArray();
+      let checkArray = [];
+      let arr = this.df.unique("tags").toArray();
       for (let i = 0; i < arr.length; i++) {
-        let o = { name: arr[i][0] };
-        d.push(o);
+        let r = arr[i][0].split(",");
+        for (let j = 0; j < r.length; j++) {
+          let elem = r[j].trim();
+          if (checkArray.indexOf(elem) === -1) {
+            checkArray.push(elem);
+            let o = { name: elem };
+            d.push(o);
+          }
+        }
       }
       this.Titles = d;
     },
     getCommunities() {
       let d = [];
+      let checkArray = [];
       let arr = this.df.unique("communities").toArray();
       for (let i = 0; i < arr.length; i++) {
-        let o = { name: arr[i][0] };
-        d.push(o);
+        let r = arr[i][0].split(",");
+        for (let j = 0; j < r.length; j++) {
+          let elem = r[j].trim();
+          if (checkArray.indexOf(elem) === -1) {
+            checkArray.push(elem);
+            let o = { name: elem };
+            d.push(o);
+          }
+        }
       }
       this.Communities = d;
     },
     async fetchData() {
-      this.df = await DataFrame.fromJSON("data5.json");
+      this.df = await DataFrame.fromJSON("data6.json");
       this.df.show();
       this.getAuthors();
       this.getTopics();
@@ -285,7 +324,7 @@ export default {
     getImgUrl(img) {
       let x = "../assets/img/" + img + ".jpg";
       x = "img/" + img + ".jpg";
-      console.log(x);
+      // console.log(x);
       return x;
     },
     animate() {
@@ -360,6 +399,7 @@ body::-webkit-scrollbar-thumb {
   justify-items: center;
   position: relative;
   background-color: #111111;
+  min-height: 100vh;
 }
 
 h3 {
@@ -595,6 +635,56 @@ iframe {
 }
 .LF {
   color: #23d7eb;
+}
+
+.pull-SP {
+  border-right: #eacb4f 2px double;
+}
+.pull-KOL {
+  border-right: #ea62d8 2px double;
+}
+.pull-LP {
+  border-right: #ea7e4f 2px double;
+}
+.pull-GH {
+  border-right: #9b42f4 2px double;
+}
+.pull-LL {
+  border-right: #ef1a4c 2px double;
+}
+.pull-RJO {
+  border-right: #933f3f 2px double;
+}
+.pull-SDP {
+  border-right: #7dba47 2px double;
+}
+.pull-LF {
+  border-right: #23d7eb 2px double;
+}
+
+.image-SP {
+  border-top: #eacb4f 2px double;
+}
+.image-KOL {
+  border-top: #ea62d8 2px double;
+}
+.image-LP {
+  border-top: #ea7e4f 2px double;
+}
+.image-GH {
+  border-top: #9b42f4 2px double;
+}
+.image-LL {
+  border-top: #ef1a4c 2px double;
+}
+.image-RJO {
+  border-top: #933f3f 2px double;
+}
+.image-SDP {
+  border-top: #7dba47 2px double;
+}
+.image-LF {
+  border-top: #23d7eb 2px double;
 }
 </style>
 
