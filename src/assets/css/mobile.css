@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1081px) {
+  /* landing page */
+  .front-container {
+    display: flex;
+  }
+
+  .front-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .front-img {
+    display: none;
+  }
+
+
+.filters {
+  flex-direction: column;
+}
+
+.form-group {
+    align-self: baseline;
+    margin-left: 20px;
+  }
+.toggle-howto {
+    width: 100%;
+  }
+.filter-container{
+    flex-direction: column;
+}
+
+  .article-wrapper {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+  }
+  .filtered-content > .article-wrapper:nth-child(5n + 1) {
+    width: 100%;
+  }
+  .filtered-content > .article-wrapper:nth-child(5n + 2) {
+    width: 100%;
+  }
+  .filtered-content > .article-wrapper:nth-child(5n + 3) {
+    width: 100%;
+  }
+  .filtered-content > .article-wrapper:nth-child(5n + 4) {
+    width: 100%;
+  }
+  .filtered-content > .article-wrapper:nth-child(5n + 5) {
+    width: 100%;
+  }
+}

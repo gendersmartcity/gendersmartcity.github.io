@@ -3,23 +3,11 @@
     <transition name="head">
       <h1 class="landing-text">Gendering the Smart City</h1>
     </transition>
-    <div style="display: grid; grid-template-columns: 1fr 3.5fr 1fr">
-      <img
-        style="align-self: end; padding-left: 10px; max-height: 400px"
-        src="img/mala.svg"
-        alt=""
-      />
+    <div class="front-container">
+      <img class="front-img" src="img/mala.svg" alt="" />
       <div>
-        <div
-          style="
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            text-align: left;
-            grid-gap: 100px;
-          "
-        >
+        <div class="front-text">
           <div style="align-self: center">
-            
             <h4 style="text-align: left; border-right: 2px double #ea62d8">
               The website showcases excerpts from our interviews of individuals
               working with NGOs and CBOs that worked tirelessly through the
@@ -37,40 +25,41 @@
           <div style="align-self: center">
             <ul>
               <li>
-                - <span class="bold-span yellow-span">SP</span> is a Dalit activist, writer,
-                social policy researcher, and an independent journalist.
+                - <span class="bold-span yellow-span">SP</span> is a Dalit
+                activist, writer, social policy researcher, and an independent
+                journalist.
               </li>
               <li>
-                - <span class="bold-span pink-span">KOL</span> is a research and advocacy
-                organisation that works on digital economy, digital rights,
-                social justice and democracy.
+                - <span class="bold-span pink-span">KOL</span> is a research and
+                advocacy organisation that works on digital economy, digital
+                rights, social justice and democracy.
               </li>
               <li>
-                - <span class="bold-span orange-span">LP</span> is an engineer who helps run
-                a community of open data enthusiasts.
+                - <span class="bold-span orange-span">LP</span> is an engineer
+                who helps run a community of open data enthusiasts.
               </li>
               <li>
-                - <span class="bold-span purple-span">GH</span> is an organisation that
-                works with informal waste workers.
+                - <span class="bold-span purple-span">GH</span> is an
+                organisation that works with informal waste workers.
               </li>
               <li>
-                - <span class="bold-span red-span">LL</span> is the cofounder of a
-                women’s rights organisation that works issues related to women
+                - <span class="bold-span red-span">LL</span> is the cofounder of
+                a women’s rights organisation that works issues related to women
                 in the unorganised sector.
               </li>
               <li>
-                - <span class="bold-span brown-span">RJO</span> is an organisation that
-                works on community building and policies around abortion and
-                adolescent sexuality.
+                - <span class="bold-span brown-span">RJO</span> is an
+                organisation that works on community building and policies
+                around abortion and adolescent sexuality.
               </li>
               <li>
-                - <span class="bold-span green-span">SDP</span> is a human rights
-                organisation that works for sexual minorities, sex workers and
-                people living HIV.
+                - <span class="bold-span green-span">SDP</span> is a human
+                rights organisation that works for sexual minorities, sex
+                workers and people living HIV.
               </li>
               <li>
-                - <span class="bold-span cyan-span">LF</span> is a registered trust that
-                work towards supporting sex workers and gender/sexual
+                - <span class="bold-span cyan-span">LF</span> is a registered
+                trust that work towards supporting sex workers and gender/sexual
                 minorities.
               </li>
             </ul>
@@ -79,7 +68,7 @@
       </div>
 
       <img
-        style="align-self: end; margin-right: 10px; max-height: 400px"
+        class="front-img"
         src="img/lakshmi.svg"
         alt=""
       />
@@ -93,10 +82,6 @@ export default {};
 
     
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Montserrat:wght@300;400&display=swap");
-* {
-  font-family: "Montserrat", sans-serif;
-}
 h1 {
   font-size: 4em;
 }
@@ -109,6 +94,22 @@ h1 {
   background-color: #222222;
 }
 
+.front-container {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr 1fr;
+}
+.front-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  grid-gap: 100px;
+}
+
+.front-img {
+  align-self: end;
+  padding-left: 10px;
+  max-height: 400px;
+}
 .head-enter-from {
   opacity: 0;
   transform: translateY(-40px);
@@ -241,5 +242,4 @@ li {
 .cyan-span {
   color: #23d7eb;
 }
-
 </style>

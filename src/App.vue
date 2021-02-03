@@ -14,11 +14,16 @@ export default {
     Landing,
   },
 };
-
 </script>
 
 <style>
-:root{
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Montserrat:wght@300;400&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+@import "./assets/css/main.css";
+@import "./assets/css/mobile.css";
+:root {
   --animation-time: 3s;
 }
 #app {
@@ -41,5 +46,5 @@ body {
 
 #app div {
   scroll-snap-align: center;
-} 
+}
 </style>
