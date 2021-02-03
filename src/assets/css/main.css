@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb {
 
 h3 {
   margin: 40px 0 5px;
-  padding-left: 1em;
+  /* padding-left: 0.5em; */
   text-align: left;
   border-bottom: 2px double #dddddd;
 }

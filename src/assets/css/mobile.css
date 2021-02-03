@@ -14,22 +14,23 @@
     display: none;
   }
 
+  .filters {
+    flex-direction: column;
+  }
 
-.filters {
-  flex-direction: column;
-}
-
-.form-group {
+  .form-group {
     align-self: baseline;
     margin-left: 20px;
   }
-.toggle-howto {
+  .toggle-howto {
     width: 100%;
   }
-.filter-container{
+  .filter-container {
     flex-direction: column;
-}
-
+  }
+  h3 {
+    padding-left: 1em;
+  }
   .article-wrapper {
     width: 100%;
     margin: 0px;
