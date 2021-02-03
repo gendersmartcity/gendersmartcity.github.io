@@ -1,8 +1,10 @@
 <template>
   <div class="landing">
-    <transition name="head">
+    <div class="header-holder">
+      <img class="mobile-img-1" src="img/mala.svg" alt="" />
+      <img class="mobile-img-2" src="img/lakshmi.svg" alt="" />
       <h1 class="landing-text">Gendering the Smart City</h1>
-    </transition>
+    </div>
     <div class="front-container">
       <img class="front-img" src="img/mala.svg" alt="" />
       <div>
@@ -67,11 +69,7 @@
         </div>
       </div>
 
-      <img
-        class="front-img"
-        src="img/lakshmi.svg"
-        alt=""
-      />
+      <img class="front-img" src="img/lakshmi.svg" alt="" />
     </div>
   </div>
 </template>

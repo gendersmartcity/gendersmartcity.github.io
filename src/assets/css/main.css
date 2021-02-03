@@ -2,6 +2,7 @@
 
 * {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -39,7 +40,9 @@ body::-webkit-scrollbar-thumb {
   background-color: #111111;
   min-height: 100vh;
 }
-
+.header-holder{
+  position: relative;
+}
 h3 {
   margin: 40px 0 5px;
   /* padding-left: 0.5em; */
@@ -310,4 +313,8 @@ iframe {
 }
 .image-LF {
   border-top: #23d7eb 2px double;
+}
+.mobile-img-1,
+.mobile-img-2 {
+  display: none;
 }
