@@ -306,7 +306,7 @@ export default {
       this.Communities = d;
     },
     async fetchData() {
-      this.df = await DataFrame.fromJSON("data6.json");
+      this.df = await DataFrame.fromJSON("data7.json");
       this.df.show();
       this.getAuthors();
       this.getTopics();
