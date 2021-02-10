@@ -17,10 +17,7 @@
         >
           How to Use this Site
         </button>
-        <div
-          v-if="howto"
-          class="toggle-howto"
-        >
+        <div v-if="howto" class="toggle-howto">
           <h4>How to use this site:</h4>
           <h5>
             Click on “Toggle Filters” in order to filter excerpts by
@@ -127,7 +124,10 @@
                 :class="'image-' + item.author"
               />
             </a>
-            <figcaption>{{ item.caption1 }}</figcaption>
+            <figcaption>
+              {{ item.caption1 }}
+              <a :href="item.link1" target="_blank"> [source] </a>
+            </figcaption>
           </figure>
         </div>
 
@@ -141,7 +141,10 @@
                 :class="'image-' + item.author"
               />
             </a>
-            <figcaption>{{ item.caption2 }}</figcaption>
+            <figcaption>
+              {{ item.caption2 }}
+              <a :href="item.link2" target="_blank"> [source] </a>
+            </figcaption>
           </figure>
         </div>
 
@@ -306,7 +309,7 @@ export default {
       this.Communities = d;
     },
     async fetchData() {
-      this.df = await DataFrame.fromJSON("data7.json");
+      this.df = await DataFrame.fromJSON("data8.json");
       this.df.show();
       this.getAuthors();
       this.getTopics();
