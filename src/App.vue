@@ -1,17 +1,20 @@
 <template>
   <Landing> </Landing>
   <GSC></GSC>
+  <Credits></Credits>
 </template>
 
 <script>
 import Landing from "./components/Landing.vue";
 import GSC from "./components/GSC.vue";
+import Credits from "./components/Credits.vue";
 
 export default {
   name: "App",
   components: {
     GSC,
     Landing,
+    Credits,
   },
 };
 </script>
