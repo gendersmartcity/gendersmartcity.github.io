@@ -29,7 +29,7 @@
     <div style="display: flex">
       <p>
         This microsite is part of the &lsquo;Gendering the Smart City&rsquo;
-        project funded by AHRC&rsquo;
+        project funded by AHRC
       </p>
       <img src="img/ahrc.png" alt="" class="logo-img ahrc" />
     </div>
