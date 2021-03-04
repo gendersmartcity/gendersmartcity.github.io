@@ -1,9 +1,12 @@
 <template>
-  <div class="credits">
+  <footer class="credits">
     <div style="display: flex">
       <img src="img/db.png" alt="" class="logo-img db" />
+      <!-- https://www.designbeku.in/ -->
       <div>
-        <p>Design Beku</p>
+        <p>
+          <a href="https://www.designbeku.in/">Design Beku</a>
+        </p>
         <p>
           Team: Padmini Ray Murray,
           <a href="https://prtysh.github.io">Pratyush Raman</a>,
@@ -30,7 +33,7 @@
       </p>
       <img src="img/ahrc.png" alt="" class="logo-img ahrc" />
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -43,6 +46,7 @@ export default {};
   display: flex;
   background-color: #000000;
   color: #888888;
+  text-align: left;
 }
 
 .logo-img {
@@ -52,7 +56,6 @@ export default {};
   margin: auto;
   padding: 0px 20px;
 }
-
 
 @media only screen and (max-width: 1081px) and (orientation: portrait) {
   .credits {
