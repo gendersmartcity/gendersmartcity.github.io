@@ -309,7 +309,7 @@ export default {
       this.Communities = d;
     },
     async fetchData() {
-      this.df = await DataFrame.fromJSON("data9.json");
+      this.df = await DataFrame.fromJSON("data10.json");
       this.df.show();
       this.getAuthors();
       this.getTopics();
